@@ -1,0 +1,2 @@
+kubectl create configmap redis-config --from-file=redis=redis.conf
+kubectl -f apply redis-deployment.yaml
